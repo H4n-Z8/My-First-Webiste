@@ -1,5 +1,5 @@
 html {
-  min-hight: 100vh;
+  min-height: 100vh;
   background-color: lightslategray;
   animation: shade 20s infinite;
 }
