@@ -1,24 +1,54 @@
-body {
-    background-color:lightgray;
+html {
+  min-hight: 100vh;
+  background-color: lightslategray;
+  animation: shade 20s infinite;
+}
+@keyframes shade {
+  0% {
+    background-color: lightslategray;
+  }
+  20% {
+    background-color: rgb(77, 83, 88);
+  }
+  40% {
+    background-color: lightslategray;
+  }
+  60% {
+    background-color: rgb(77, 83, 88);
+  }
+  80% {
+    background-color: lightslategray;
+  }
+  100% {
+    background-color: rgb(77, 83, 88);
+  }
+  80% {
+    background-color: lightslategray;
+  }
+  60% {
+    background-color: rgb(77, 83, 88);
+  }
+  20% {
+    background-color: lightslategray;
+  }
+  0% {
+    background-color: rgb(77, 83, 88);
+  }
 }
 h1 {
-    color:black;
-    font-family: Arial;
-    font-size: 200%;
+  font-family: Impact;
+  text-align: center;
 }
 p {
-    color:darkcyan;
-    font-family: Courier New;
-    font-size: 150%;
+  font-family: Calibri;
+  text-align: center;
 }
-a:link {
-    margin-left: 20px;
-}
-a:hover {
-    border-style: solid;
-    border-width: 20px;
-    border-color: lightcoral;
+.centre {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 address {
-    margin-top: 50px;
+  font-family: Calibri;
 }
