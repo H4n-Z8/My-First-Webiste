@@ -3,6 +3,74 @@ html {
   background-color: lightslategray;
   animation: shade 20s infinite;
 }
+.maintext {
+  border: 5px;
+  margin: 10px;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(54, 54, 54),
+    rgb(83, 83, 83)
+  );
+  color: white;
+}
+.centre {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+h1 {
+  font-family: Impact;
+  text-align: center;
+}
+p {
+  font-family: Calibri;
+  text-align: center;
+}
+address {
+  font-family: Calibri;
+}
+.topbar {
+  background-color: rgb(54, 54, 54);
+  overflow: hidden;
+}
+.topbar a {
+  float: left;
+  color: aqua;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+  text-decoration: none;
+}
+.topbar a:hover {
+  opacity: 0.6;
+  color: rgb(245, 75, 45);
+}
+.topbar a.active {
+  background-color: aqua;
+  color: rgb(54, 54, 54);
+}
+.email {
+  display: block;
+  text-align: center;
+}
+.email a {
+  background: rgb(54, 54, 54);
+  padding: 0.25rem;
+  text-decoration: none;
+  color: grey;
+}
+.email a:hover {
+  background: white;
+  padding: 0.25rem;
+  text-decoration: none;
+  color: black;
+}
+.intro {
+  display: block;
+  text-align: center;
+  padding: 1rem;
+}
 @keyframes shade {
   0% {
     background-color: lightslategray;
@@ -34,21 +102,4 @@ html {
   0% {
     background-color: rgb(77, 83, 88);
   }
-}
-h1 {
-  font-family: Impact;
-  text-align: center;
-}
-p {
-  font-family: Calibri;
-  text-align: center;
-}
-.centre {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-address {
-  font-family: Calibri;
 }
