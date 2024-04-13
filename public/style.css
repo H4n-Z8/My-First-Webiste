@@ -3,15 +3,68 @@ html {
   background-color: lightslategray;
   animation: shade 20s infinite;
 }
+.Headers {
+  margin-top: 60px;
+  color: rgb(26, 26, 26);
+}
+body {
+  margin: 0;
+}
 .maintext {
-  border: 5px;
-  margin: 10px;
+  display: block;
+  text-align: center;
   background-image: linear-gradient(
     to bottom,
     rgb(54, 54, 54),
     rgb(83, 83, 83)
   );
   color: white;
+  padding: 0.25rem;
+  width: 800px;
+  margin: auto;
+}
+.Contents {
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  margin: auto;
+  margin-top: 10px;
+  height: 8rem;
+  justify-content: center;
+  padding: 0.25rem;
+}
+.Contents2 {
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  margin: auto;
+  margin-top: 10px;
+  flex: wrap;
+  justify-content: space-around;
+}
+.List1 {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(54, 54, 54),
+    rgb(83, 83, 83)
+  );
+  color: white;
+  display: block;
+  text-align: center;
+  margin: 0%;
+  height: 100%;
+}
+.List2 {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(54, 54, 54),
+    rgb(83, 83, 83)
+  );
+  color: white;
+  display: block;
+  text-align: center;
+  height: 100%;
+  margin-right: 40px;
 }
 .centre {
   display: block;
@@ -33,6 +86,9 @@ address {
 .topbar {
   background-color: rgb(54, 54, 54);
   overflow: hidden;
+  top: 0;
+  width: 100%;
+  position: fixed;
 }
 .topbar a {
   float: left;
@@ -70,6 +126,7 @@ address {
   display: block;
   text-align: center;
   padding: 1rem;
+  margin-top: 40px;
 }
 @keyframes shade {
   0% {
