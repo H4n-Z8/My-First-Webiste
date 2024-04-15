@@ -1,14 +1,15 @@
 html {
-  min-height: 100vh;
-  background-color: lightslategray;
-  animation: shade 20s infinite;
+  min-height: 100vh; /*Sets Minimum Height for the Page*/
+  background-color: lightslategray; /*Adds Background color*/
+  animation: shade 20s infinite; /*Adds shade animation for the background*/
 }
+
 .Headers {
-  margin-top: 60px;
-  color: rgb(26, 26, 26);
+  margin-top: 60px; /*Sets the Title 60px lowers so it dosent clip over teh Topbar*/
+  color: rgb(26, 26, 26); /*Sets Color for the Title*/
 }
 body {
-  margin: 0;
+  margin: 0; /*Normalizes the body margin*/
 }
 .maintext {
   display: block;
@@ -20,27 +21,28 @@ body {
   );
   color: white;
   padding: 0.25rem;
-  width: 800px;
+  width: 80%;
   margin: auto;
 }
 .Contents {
   display: flex;
   flex-direction: row;
-  width: 800px;
+  width: 80%;
   margin: auto;
   margin-top: 10px;
   height: 8rem;
-  justify-content: center;
+  justify-content: space-evenly;
   padding: 0.25rem;
 }
 .Contents2 {
   display: flex;
   flex-direction: row;
-  width: 800px;
+  width: 80%;
   margin: auto;
   margin-top: 10px;
   flex: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  padding: 0.25rem;
 }
 .List1 {
   background-image: linear-gradient(
